@@ -1,0 +1,15 @@
+{
+  "name": "platform-test-e2e",
+  "version": "1.0.0",
+  "description": "E2E test repository for devs.do SDLC automation",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
